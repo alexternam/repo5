@@ -10,3 +10,4 @@ Docker installation on ubuntu 22
     8. sudo systemctl status docker
     9. sudo usermod -aG docker ${USER}
     10.systemctl status docker.service
+    11.sudo chmod 666 /var/run/docker.sock
